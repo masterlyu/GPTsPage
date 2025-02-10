@@ -90,6 +90,20 @@ body, html {
     overflow: hidden;
   }
   
+  .card-link {
+    text-decoration: none;  /* 링크의 기본 스타일(밑줄)을 제거 */
+    color: inherit;  /* 링크 색상을 부모 요소의 색상으로 상속 */
+  }
+  
+  .card {
+    cursor: pointer; /* 커서 모양을 포인터로 변경하여 클릭 가능한 영역으로 보이게 함 */
+    transition: transform 0.3s ease;  /* 클릭 시 부드러운 애니메이션 효과 추가 */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* 마우스를 올렸을 때 카드가 살짝 커짐 */
+  }
+
   .card img {
     width: 100%;
     height: auto;
@@ -125,3 +139,4 @@ body, html {
     }
   }
   
+
