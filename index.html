@@ -1,117 +1,183 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>시아노 GPTs Site</title>
-  <!-- 외부 CSS 파일(style.css) 링크 -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시아노 GPTs Site</title>
+    <link rel="stylesheet" href="style.css"> <!-- 외부 CSS 파일 링크 -->
 </head>
 <body>
-  <!-- 헤더 및 네비게이션 메뉴 (상단 고정) -->
-  <header>
-    <div class="logo">시아노 GPTs</div>
-    <nav>
-      <a href="#blog">블로그 자동화 시리즈</a>
-      <a href="#youtube">유튜브 시리즈</a>
-      <a href="#chat">오픈 채팅방</a>
-      <a href="#contact">문의하기</a>
-    </nav>
-  </header>
+    <!-- 헤더 영역: 로고와 네비게이션 -->
+    <header>
+        <a href="#" class="logo">시아노 GPTs</a>
+        <nav>
+            <a href="#blog">블로그 자동화</a>
+            <a href="#automation">업무 자동화</a>
+            <a href="#chat">오픈 채팅방</a>
+            <a href="#contact">문의하기</a>
+        </nav>
+    </header>
 
-  <!-- 히어로 섹션 (첫 화면 소개) -->
-  <div class="hero">
-    <h1>미래로 향하는 여정, 함께 GO GO GO!</h1>
-    <p>최신 AI 도구와 자동화 꿀팁을 만나보세요.</p>
-  </div>
+    <!-- 히어로 섹션: 메인 소개 영역 -->
+    <section class="hero">
+        <h1>미래로 향하는 여정,<br>함께 GO GO GO!</h1>
+        <p>최신 AI 도구와 자동화 꿀팁으로 당신의 디지털 혁신을 시작하세요.</p>
+    </section>
 
-  <!-- 블로그 자동화 시리즈 섹션 -->
-  <section id="blog">
-    <h2 class="section-title">블로그 자동화 시리즈</h2>
-    <div class="cards">
-      <!-- 카드 1: 나의 상담사 김창욱 -->
-    <a href="https://chatgpt.com/g/g-6795af2f5f8081919bcdcb39049e5cea-gimcangogyi-sujeja-gimcangug" class="card-link">
-      <div class="card">
-        <img src="image/changokGpts.jpg" alt="김창옥의 제자 김창욱GPT">
-        <div class="card-content">
-          <h3>나의 상담사 김창욱</h3>
-          <p>가슴속에 담아뒀던 고충을 토로하세요. 속이 시원해 집니다.</p>
+    <!-- 블로그 자동화 섹션 -->
+    <section id="blog" class="section">
+        <h2 class="section-title">블로그 자동화 시리즈</h2>
+        <div class="cards-container">
+            <div class="cards-wrapper">
+                <div class="cards">
+                    <!-- 카드 1: 나의 상담사 김창욱 -->
+                    <a href="https://chatgpt.com/g/g-6795af2f5f8081919bcdcb39049e5cea-gimcangogyi-sujeja-gimcangug" class="card-link">
+                        <div class="card">
+                            <img src="image/changokGpts.jpg" alt="김창옥의 제자 김창욱GPT">
+                            <div class="card-content">
+                                <h3>나의 상담사 김창욱</h3>
+                                <p>가슴속에 담아뒀던 고충을 토로하세요. 속이 시원해 집니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 2: 이미지 생성기 -->
+                    <a href="https://chatgpt.com/g/g-67a9d3475fc88191ae4495a7ae51e05c-imiji-saengseong" class="card-link">
+                        <div class="card">
+                            <img src="image/imagegpts.jpg" alt="이미지생성GPT">
+                            <div class="card-content">
+                                <h3>이미지 생성기</h3>
+                                <p>다양한 이미지를 고퀄리티로 그려줍니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 3: 블로그 생성 -->
+                    <a href="https://chatgpt.com/g/g-67a40ddc097c8191a406d7d1186566ce-beulrogeu-geul-jagseong" class="card-link">
+                        <div class="card">
+                            <img src="image/writeGPT.png" alt="블로그 글쓰기GPT">
+                            <div class="card-content">
+                                <h3>블로그 생성</h3>
+                                <p>블로그 글의 퀄리티를 높이는 다양한 이미지 자료를 제공합니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 4 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목4" alt="항목 4">
+                            <div class="card-content">
+                                <h3>새로운 항목 1</h3>
+                                <p>여기에 새로운 항목 1에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 5 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목5" alt="항목 5">
+                            <div class="card-content">
+                                <h3>새로운 항목 2</h3>
+                                <p>여기에 새로운 항목 2에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 6 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목6" alt="항목 6">
+                            <div class="card-content">
+                                <h3>새로운 항목 3</h3>
+                                <p>여기에 새로운 항목 3에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 네비게이션 버튼 -->
+            <button class="nav-button prev" aria-label="이전">←</button>
+            <button class="nav-button next" aria-label="다음">→</button>
         </div>
-      </div>
-    </a>
-      <!-- 카드 2: 이미지생성 GPT -->
-      <a href="https://chatgpt.com/g/g-67a9d3475fc88191ae4495a7ae51e05c-imiji-saengseong" class="card-link">
-      <div class="card">
-        <img src="image/imagegpts.jpg" alt="이미지생성GPT">
-        <div class="card-content">
-          <h3>창의적인 이미지 생성기</h3>
-          <p>다양한 이미지를 고퀄리티로 그려줍니다.</p>
-        </div>
-      </div>
-    </a>
-      <!-- 카드 3: 블로그 글쓰기 -->
-    <a href="https://chatgpt.com/g/g-67a40ddc097c8191a406d7d1186566ce-beulrogeu-geul-jagseong" class="card-link">
-      <div class="card">
-        <img src="image/writeGPT.png" alt="블로그 글쓰기GPT">
-        <div class="card-content">
-          <h3>블로그 생성</h3>
-          <p>블로그 글의 퀄리티를 높이는 다양한 이미지 자료 제공합니다</p>
-        </div>
-      </div>
-    </a>
-    </div>
-  </section>
+    </section>
 
-  <!-- 유튜브 시리즈 섹션 -->
-  <section id="youtube">
-    <h2 class="section-title">유튜브 시리즈</h2>
-    <div class="cards">
-      <!-- 카드 1: 데이터 수집 및 분석 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=데이터+분석" alt="데이터 분석">
-        <div class="card-content">
-          <h3>데이터 수집 및 분석</h3>
-          <p>유튜브 데이터를 분석하여 콘텐츠 전략을 수립합니다.</p>
+    <!-- 업무 자동화 섹션 -->
+    <section id="automation" class="section">
+        <h2 class="section-title">업무 자동화 시리즈</h2>
+        <div class="cards-container">
+            <div class="cards-wrapper">
+                <div class="cards">
+                    <!-- 카드 1: 데이터 분석 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=데이터+분석" alt="데이터 분석">
+                            <div class="card-content">
+                                <h3>데이터 수집 및 분석</h3>
+                                <p>유튜브 데이터를 분석하여 콘텐츠 전략을 수립합니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 2: 리빌딩 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=리빌딩" alt="리빌딩">
+                            <div class="card-content">
+                                <h3>벤치마킹 및 리빌딩</h3>
+                                <p>최신 트렌드를 반영한 콘텐츠 리빌딩 프로그램 제공.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 3: 영상 제작 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=영상+제작" alt="영상 제작">
+                            <div class="card-content">
+                                <h3>영상 소스 수집 및 제작</h3>
+                                <p>다양한 영상 소스를 활용하여 새롭고 흥미로운 콘텐츠 제작.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 4 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목7" alt="항목 7">
+                            <div class="card-content">
+                                <h3>새로운 항목 4</h3>
+                                <p>여기에 새로운 항목 4에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 5 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목8" alt="항목 8">
+                            <div class="card-content">
+                                <h3>새로운 항목 5</h3>
+                                <p>여기에 새로운 항목 5에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 카드 6 추가 -->
+                    <a href="https://example.com" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200?text=항목9" alt="항목 9">
+                            <div class="card-content">
+                                <h3>새로운 항목 6</h3>
+                                <p>여기에 새로운 항목 6에 대한 설명이 들어갑니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 네비게이션 버튼 -->
+            <button class="nav-button prev" aria-label="이전">←</button>
+            <button class="nav-button next" aria-label="다음">→</button>
         </div>
-      </div>
-      <!-- 카드 2: 벤치마킹 및 리빌딩 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=리빌딩" alt="리빌딩">
-        <div class="card-content">
-          <h3>벤치마킹 및 리빌딩</h3>
-          <p>최신 트렌드를 반영한 콘텐츠 리빌딩 프로그램 제공.</p>
-        </div>
-      </div>
-      <!-- 카드 3: 영상 소스 수집 및 제작 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=영상+제작" alt="영상 제작">
-        <div class="card-content">
-          <h3>영상 소스 수집 및 제작</h3>
-          <p>다양한 영상 소스를 활용하여 새롭고 흥미로운 콘텐츠 제작.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- 오픈 채팅방 섹션 -->
-  <section id="chat">
-    <h2 class="section-title">오픈 채팅방</h2>
-    <p style="text-align: center;">AI 및 최신 기술 소식을 공유하는 오픈 채팅방에 참여해보세요!</p>
-    <div style="text-align: center; margin-top: 20px;">
-      <a href="https://open.kakao.com" target="_blank" style="background-color:#f39c12;color:#fff;padding:10px 20px;text-decoration:none;border-radius:5px;">채팅방 입장하기</a>
-    </div>
-  </section>
+    <!-- 푸터 영역 -->
+    <footer>
+        <p>&copy; 2025 cyano GPTs. All rights reserved.</p>
+    </footer>
 
-  <!-- 문의하기 섹션 -->
-  <section id="contact">
-    <h2 class="section-title">제휴 및 비즈니스 문의</h2>
-    <p style="text-align: center;">새로운 프로젝트나 협업에 관심이 있으신가요? 아래 이메일로 문의해주세요.</p>
-    <p style="text-align: center;"><a href="mailto:masterlyu@gmail.com">masterlyu@gmil.com</a></p>
-  </section>
-
-  <!-- 푸터 (하단 영역) -->
-  <footer>
-    <p>&copy; 2025 cyano GPTs. All rights reserved.</p>
-  </footer>
+    <!-- JavaScript 파일 연결 -->
+    <script src="script.js"></script>
 </body>
 </html>
