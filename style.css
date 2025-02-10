@@ -1,0 +1,127 @@
+/* 기본 스타일 설정 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* 헤더 스타일 (상단 고정 메뉴) */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  /* 네비게이션 메뉴 스타일 */
+  nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 히어로 섹션 (첫 화면 배너) */
+  .hero {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px 80px;
+    margin-top: 80px; /* 헤더 높이만큼 여백 추가 */
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  /* 각 콘텐츠 섹션 스타일 */
+  section {
+    padding: 60px 20px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+  }
+  
+  /* 카드 레이아웃 스타일 */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+  }
+  
+  /* 푸터 스타일 */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* 반응형 웹을 위한 미디어 쿼리 */
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+  
